@@ -11,4 +11,4 @@
 
 ## Shortcuts
 ### Markdown
-* [마크다운 문법 정리](/Markdown/Markdown.md)
+* [Markdown 문법 정리](/Markdown/Markdown.md)
