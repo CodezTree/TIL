@@ -42,7 +42,7 @@ ____
 
 \**( \_ \_ ), ****( \_\_ __ ), ~~~~, <code><u></u></code>
 
-<code> <em> </code> - 이텔릭체, <code><strong></code> - 두껍게,<code><del></code> - 취소선, <code><u></u></code> - 밑줄로 대응됩니다.
+<code> \<em> </code> - 이텔릭체, <code><strong></code> - 두껍게,<code><del></code> - 취소선, <code><u></u></code> - 밑줄로 대응됩니다.
 
 ```
 이텔릭체는 *Asterisks(별표)* 혹은 _UnderBar(언더바)_를 사용할 수 있습니다.
