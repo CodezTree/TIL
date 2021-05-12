@@ -30,8 +30,6 @@ git push -u origin master
 
 ### 2-1. 원하는 Jekyll Theme 찾기
 
-### test
-
 <br/>
 
 먼저 자신이 마음에 드는 Jekyll Theme를 찾는다. [Jekyll Themes][jeky-site]에 들어가 보면 다양한 테마들이 존재하므로 원하는 테마를 선택하고 해당 Github Repository로 들어간다.  
@@ -49,14 +47,8 @@ git push -u origin master
 해당 Github Repository에서 `_config.yml` 파일을 그대로 복사해 자신의 `github.io` Repository에 붙여 넣어준다.  
 <br/>
 해당 작업 수행 후, 복사한 파일에 다음과 같은 작업을 진행한다.  
-<br/>
 
-<!--
-* 다음 한 줄을 추가해준다.
-```yml
-remote_theme: Owner/Repository
-```
-(여기서 Owner은 Theme Repository 소유자의 이름, Repository는 Theme Repository의 이름이다. ex) `codeztree/lovelytheme`)-->
+<br/>
 
 * 다음 두 줄을 다음과 같이 수정해준다.
 ```yml
@@ -66,6 +58,21 @@ baseurl   : ""
 baseurl은 공백(`""`)으로 해준다. Subpath를 설정하고 싶다면 설정해도 상관없다.
 
 이외의 내용은 본인에 맞게 수정해주어도 상관 없다. (페이스북, 홈페이지, 이메일 등등)  
+
+<details><summary>Remote Theme 사용</summary>
+<p>
+
+###### Remote Theme
+
+* 다음 한 줄을 추가해준다.
+```yml
+remote_theme: Owner/Repository
+```
+(여기서 Owner은 Theme Repository 소유자의 이름, Repository는 Theme Repository의 이름이다. ex) `codeztree/lovelytheme`)
+
+* Remote Theme를 사용하게 되면, Theme의 다른 `css`, `_layout` 같은 리소스를 전체 다 가져올 필요 없이 Github가 자동으로 해당 테마 레포지토리의 정보를 확인해 정리해주므로 간단하다. 하지만 커스터마이징을 할 수 없다.)
+</p>
+</details>
 
 <br/>
 
@@ -119,5 +126,4 @@ categories: new jekyll
 
 만약 커스터마이징이 필요 없다면, `jekyll remote theme`를 간단하게 사용하는 방법도 있다.
 
-[Jekyll Remote Theme 사용](#22-configyml-가져오고-설정하기)  
-[이건테스트](#test)
+[Jekyll Remote Theme 사용](#remote-theme)
