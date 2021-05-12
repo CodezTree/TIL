@@ -196,9 +196,9 @@ TIL는 재밌을 지도 모르겠어요.
 이미지에 링크를 넣으려면 <code>\[!\[텍스트](이미지링크)](이동링크)</code>를 사용합니다.
 
 ```
-[![귀여운사람](/images/cuteman.jpg)](https://google.com)
+[![귀여운사람](./images/cuteman.jpg)](https://google.com)
 ```
-[![귀여운사람](/images/cuteman.jpg)](https://google.com)
+[![귀여운사람](./images/cuteman.jpg)](https://google.com)
 
 <br/>
 
@@ -298,3 +298,20 @@ TIL는 재밌을 지도 모르겠어요.
 </ul>
 
 </details>
+
+<br/>
+
+### ▶︎ Markdown에 귀여운 이모지!
+
+이모지를 간단한 코드로 삽입할 수 있습니다. `:이모지tag:`  
+이모지 리스트는 [여기](https://gist.github.com/rxaviers/7360908)에서 확인할 수 있습니다. (특정 Application에서 사용 불가능한 이모지도 있습니다.)
+
+```
+나는 행복해!! :joy:
+
+캠핑을 가고 싶은데...? :tent:
+```
+
+나는 행복해!! :joy:
+
+캠핑을 가고 싶은데...? :tent:
