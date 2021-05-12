@@ -127,4 +127,4 @@ categories: new jekyll
 
 만약 커스터마이징이 필요 없다면, `jekyll remote theme`를 간단하게 사용하는 방법도 있다.
 
-[Jekyll Remote Theme 사용](#remote-theme)
+\> \> [Jekyll Remote Theme 사용](#remote-theme)
