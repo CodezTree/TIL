@@ -30,6 +30,8 @@ git push -u origin master
 
 ### 2-1. 원하는 Jekyll Theme 찾기
 
+### test
+
 <br/>
 
 먼저 자신이 마음에 드는 Jekyll Theme를 찾는다. [Jekyll Themes][jeky-site]에 들어가 보면 다양한 테마들이 존재하므로 원하는 테마를 선택하고 해당 Github Repository로 들어간다.  
@@ -117,4 +119,5 @@ categories: new jekyll
 
 만약 커스터마이징이 필요 없다면, `jekyll remote theme`를 간단하게 사용하는 방법도 있다.
 
-[Jekyll Remote Theme 사용](#22-configyml-가져오고-설정하기)
+[Jekyll Remote Theme 사용](#22-configyml-가져오고-설정하기)  
+[이건테스트](#test)
