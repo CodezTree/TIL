@@ -59,10 +59,11 @@ baseurl은 공백(`""`)으로 해준다. Subpath를 설정하고 싶다면 설�
 
 이외의 내용은 본인에 맞게 수정해주어도 상관 없다. (페이스북, 홈페이지, 이메일 등등)  
 
-<details><summary>Remote Theme 사용</summary>
-<p>
+<br/>
 
 ###### Remote Theme
+<details><summary>사용법</summary>
+<p>
 
 * 다음 한 줄을 추가해준다.
 ```yml
